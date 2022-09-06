@@ -9,5 +9,7 @@ namespace Tarea1.Models
         public string? Descripcion { get; set; }
         public float? Salario { get; set; }
 
+      
+
     }
 }

@@ -4,8 +4,8 @@
 @inject OcupacionesBLL OcupacionesBLL
 
 
-<h3>R_Ocupaciones</h3>
-
+<h3></h3>
+@*<EditForm Model = "">*@
 <EditForm Model="ocupacion" OnValidSubmit="Guardar">
     <DataAnnotationsValidator />
     <div class="card">
@@ -52,7 +52,7 @@
             <div class="form-group text-center" display: inline-block>
                 <button type="button" class="btn btn-lg btn-primary" @onclick="Nuevo">Nuevo</button>
                 <button type="submit" class="btn btn-lg btn-success">Guardar</button>
-                @*<button type="button" class="btn btn-lg btn-danger" @onclick="Eliminar">Eliminar</button>*@
+              <button type="button" class="btn btn-lg btn-danger" @onclick="Eliminar">Eliminar</button>
             </div>
         </div>
     </div>
@@ -97,18 +97,18 @@
         }
     }
 
-   // public void Eliminar(ocupacion.OcupacionId)
-    //{
-    //    bool elimino;
+    public void Eliminar()
+    {
+        bool elimino;
 
-     //   elimino = OcupacionesBLL.Eliminar(ocupacion.OcupacionId);
+        elimino = OcupacionesBLL.Eliminar(ocupacion);
 
-     //   if (elimino)
-     //   {
-      //      Nuevo();
+       if (elimino)
+        {
+            Nuevo();
             //toast.ShowSuccess("Eliminado correctamente");
-    //    }
-    //    else
-             //toast.ShowError("No fue posible eliminar");
-   //  }
+        }
+       // else
+            // toast.ShowError("No fue posible eliminar");
+     }
 }

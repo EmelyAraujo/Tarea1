@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
 using Tarea1.BLL;
 using Tarea1.DAL;
-using Tarea1.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +18,7 @@ options.UseSqlite(ConStr)
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<OcupacionesBLL>();
-builder.Services.AddSingleton<WeatherForecastService>();
+
 
 var app = builder.Build();
 
