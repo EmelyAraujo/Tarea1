@@ -1,25 +1,24 @@
-﻿@page "/C_ocupacion"
+﻿@page "/ocupaciones"
 @inject OcupacionesBLL ocupacionBLL;
 
 <EditForm Model="lista">
     <DataAnnotationsValidator />
-    <form>
-        <div>
-            <select @bind="Filtro">
-                <option value="1">OcupacionId</option>
-                <option value="2">Descripcion</option>
-            </select>
-        </div>
-        <label class="form-control">Criterio</label>
-        <input type="text" class="form-control" @bind="Criterio">
 
-        <div>
-            <button type="button" @onclick="Buscar">
-                <i>Buscar</i>
-            </button>
-        </div>
+    <div  class="row">
+        <select class="form-control" @bind="Filtro">
+            <option value="1">OcupacionId</option>
+            <option value="2">Descripcion</option>
+        </select>
+    </div>
 
-    </form>
+    <label class="form-control">Criterio</label>
+    <input type="text" class="form-control" @bind="Criterio">
+
+    <div>
+        <button type="button" @onclick="Buscar">
+            <i>Buscar</i>
+        </button>
+    </div>
 
     <table class="table">
 
@@ -38,7 +37,7 @@
                     <td>@ocupacion.OcupacionId</td>
                     <td>@ocupacion.Descripcion</td>
                     <td>@ocupacion.Salario</td>
-                    <td><a href="R_Ocupaciones/@ocupacion.OcupacionId">Ver</a></td>
+                    <td><a href="ocupacion/@ocupacion.OcupacionId">Ver</a></td>
                 </tr>
             }
 
@@ -49,13 +48,13 @@
 
 @code
 {
-    public string Filtro { get; set; }
-    public string Criterio { get; set; }
+    public string Filtro { get; set; } = "";
+    public string Criterio { get; set; } = "";
 
     public List<Ocupaciones> lista { get; set; } = new List<Ocupaciones>();
     public void Buscar()
     {
-       //lista = OcupacionesBLL.GetList();
+        lista = ocupacionBLL.GetList(o => true);
     }
 
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UCNE\\Semestre_3-2022\\PROGRAMACION_APLICADA_1\\Laboratorio\\Tarea1\\Tarea1.csproj": {}
+    "D:\\AplicadaI\\Ap1 2022-03\\Tareas\\Tarea1\\Emely\\Tarea1.csproj": {}
   },
   "projects": {
-    "E:\\UCNE\\Semestre_3-2022\\PROGRAMACION_APLICADA_1\\Laboratorio\\Tarea1\\Tarea1.csproj": {
+    "D:\\AplicadaI\\Ap1 2022-03\\Tareas\\Tarea1\\Emely\\Tarea1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UCNE\\Semestre_3-2022\\PROGRAMACION_APLICADA_1\\Laboratorio\\Tarea1\\Tarea1.csproj",
+        "projectUniqueName": "D:\\AplicadaI\\Ap1 2022-03\\Tareas\\Tarea1\\Emely\\Tarea1.csproj",
         "projectName": "Tarea1",
-        "projectPath": "E:\\UCNE\\Semestre_3-2022\\PROGRAMACION_APLICADA_1\\Laboratorio\\Tarea1\\Tarea1.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\UCNE\\Semestre_3-2022\\PROGRAMACION_APLICADA_1\\Laboratorio\\Tarea1\\obj\\",
+        "projectPath": "D:\\AplicadaI\\Ap1 2022-03\\Tareas\\Tarea1\\Emely\\Tarea1.csproj",
+        "packagesPath": "C:\\Users\\enelr\\.nuget\\packages\\",
+        "outputPath": "D:\\AplicadaI\\Ap1 2022-03\\Tareas\\Tarea1\\Emely\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enelr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.20.10, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
