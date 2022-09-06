@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tarea1
 build_property.RootNamespace = Tarea1
-build_property.ProjectDir = E:\UCNE\Semestre_3-2022\PROGRAMACION_APLICADA_1\Laboratorio\Tarea1\
+build_property.ProjectDir = D:\AplicadaI\Ap1 2022-03\Tareas\Tarea1\Emely\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\UCNE\Semestre_3-2022\PROGRAMACION_APLICADA_1\Laboratorio\Tarea1
+build_property.MSBuildProjectDirectory = D:\AplicadaI\Ap1 2022-03\Tareas\Tarea1\Emely
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/App.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/Consultas/C_Ocupaciones.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/Consultas/C_Ocupaciones.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFzXENfT2N1cGFjaW9uZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/Index.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/Registros/R_Ocupaciones.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/Registros/R_Ocupaciones.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXFJfT2N1cGFjaW9uZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Shared/SurveyPrompt.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/_Imports.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Shared/MainLayout.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5c6y8r8uak
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Shared/NavMenu.razor]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bbbnczawff
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/Error.cshtml]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/_Host.cshtml]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/UCNE/Semestre_3-2022/PROGRAMACION_APLICADA_1/Laboratorio/Tarea1/Pages/_Layout.cshtml]
+[D:/AplicadaI/Ap1 2022-03/Tareas/Tarea1/Emely/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
 using Tarea1.BLL;
 using Tarea1.DAL;
+using Radzen;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,9 @@ options.UseSqlite(ConStr)
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddScoped<NotificationService>();
+
 builder.Services.AddScoped<OcupacionesBLL>();
 
 
